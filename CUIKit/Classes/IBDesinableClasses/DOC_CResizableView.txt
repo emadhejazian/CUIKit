@@ -1,0 +1,10 @@
+
+1.inherit view from CResizableView class
+2.connet this two outlet in Interface Builder
+    parentView
+    internalLabel
+
+3.refresh view with new data
+
+    viewRegionName.internalLabel.text = Utils().getZoneName(coordinate: pinLocation)
+    viewRegionName.updateSize();

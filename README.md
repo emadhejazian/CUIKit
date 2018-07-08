@@ -22,7 +22,7 @@ pod 'CUIKit'
 
 ## Author
 
-emadhejazian, emad@inpinapp.com
+emadhejazian, e.hejazian@gmail.com
 
 ## License
 
