@@ -8,6 +8,21 @@ https://cocoapods.org/pods/CUIKit
 
 ## Example
 
+there are these Custom Classes help you customize your UI elements in IB without code:
+
+you just need inherit your elements from these classes in `Identity Inspector`
+
+### CUIButton:
+you can make a button radius or set color for selected or not selected state,border color and width in
+
+### CUIView:
+you can make a view radius or set shadow for it and border color and with
+
+### CResizableView
+you can change size label and container view dynamicly according to its text
+just you have to indicate the `parentView` and `internalLable` for it in `Connection Inspector` or in code
+
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
